@@ -7,7 +7,7 @@ services:
       dockerfile: docker/nginx/Dockerfile
     ports:
       # These ports are in format <host-port>:<container-port>
-      - "8585:80"
+      - "8585:8585"
     network_mode: host
     restart: unless-stopped
 
