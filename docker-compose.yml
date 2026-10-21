@@ -5,8 +5,8 @@ services:
     build:
       context: .
       dockerfile: docker/nginx/Dockerfile
-#    ports:
-#      - "8585:8585"   #<host-port>:<container-port>
+    ports:
+      - "8585:8585"   #<host-port>:<container-port>
 #    network_mode: host
     restart: unless-stopped
 
