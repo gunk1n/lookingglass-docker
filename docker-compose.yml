@@ -1,6 +1,6 @@
 services:
   nginx:
-    image: gunk1n/lookingglass-nginx:1   #hybula/lookingglass-nginx:1
+    image: gunk1n/lookingglass-nginx:1.5.0   #hybula/lookingglass-nginx:1
     container_name: lg-nginx
     build:
       context: .
@@ -12,7 +12,7 @@ services:
     restart: unless-stopped
 
   php-fpm:
-    image: gunk1n/lookingglass-php:1   #hybula/lookingglass-php:1
+    image: gunk1n/lookingglass-php:1.5.0   #hybula/lookingglass-php:1
     container_name: lg-php
     build:
       context: .
