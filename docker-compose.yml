@@ -27,13 +27,13 @@ services:
       # Please replace them with values that are relevant to your situation!
       LOCATION: Location
       FACILITY: Facility
-      FACILITY_URL: http://localhost/
-      LOGO_URL: https://github.com/hybula/lookingglass/
-      LOGO: '<h2 style="color: #000000;">Company Looking Glass</h2>'
-      LOGO_DARK: '<h2 style="color: #ffffff;">Company Looking Glass</h2>'
+      FACILITY_URL: https://lookingglass.app.gunk1n.dev/ # http://localhost/
+      LOGO_URL: https://github.com/gunk1n/lookingglass-docker/
+      LOGO: '<h2 style="color: #000000;">infra.gunk1n.dev | Looking Glass</h2>'
+      LOGO_DARK: '<h2 style="color: #ffffff;">infra.gunk1n.dev | Looking Glass</h2>'
       IPV4_ADDRESS: 127.0.0.1
       IPV6_ADDRESS: ::1
-      MAPS_QUERY: Amsterdam
+      MAPS_QUERY: Moscow
       # Pass these variables with any arbitrary value to disable the respective block.
       # DISABLE_BLOCK_NETWORK: 'true'
       # DISABLE_BLOCK_LOOKINGGLASS: 'true'
