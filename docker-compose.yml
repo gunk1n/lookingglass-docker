@@ -5,10 +5,9 @@ services:
     build:
       context: .
       dockerfile: docker/nginx/Dockerfile
-    ports:
-      # These ports are in format <host-port>:<container-port>
-      - "8585:8585"
-    network_mode: host
+#    ports:
+#      - "8585:8585"   #<host-port>:<container-port>
+#    network_mode: host
     restart: unless-stopped
 
   php-fpm:
@@ -17,7 +16,7 @@ services:
     build:
       context: .
       dockerfile: docker/php-fpm/Dockerfile
-    network_mode: host
+#    network_mode: host
     restart: unless-stopped
     healthcheck:
       test: ["CMD-SHELL", "cgi-fcgi -bind -connect localhost:9000 >/dev/null 2>&1 || exit 1"]
