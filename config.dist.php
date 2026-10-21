@@ -2,14 +2,14 @@
 use Hybula\LookingGlass;
 
 // Define the HTML title;
-const LG_TITLE = 'Looking Glass';
+const LG_TITLE = 'lookingglass.app.gunk1n.dev';
 
 // Define a logo, this can be HTML too, see the other example for an image;
-const LG_LOGO = '<h2 style="color: #000000;">Company Looking Glass</h2>';
-const LG_LOGO_DARK = '<h2 style="color: #ffffff;">Company Looking Glass</h2>';
+const LG_LOGO = '<h2 style="color: #000000;">infra.gunk1n.dev | Looking Glass</h2>';
+const LG_LOGO_DARK = '<h2 style="color: #ffffff;">infra.gunk1n.dev | Looking Glass</h2>';
 
 // Define the URL where the logo points to;
-const LG_LOGO_URL = 'https://github.com/hybula/lookingglass/';
+const LG_LOGO_URL = 'https://github.com/gunk1n/lookingglass-docker/';
 
 // Theme mode;
 const LG_THEME = 'auto';
@@ -40,13 +40,13 @@ const LG_CUSTOM_HEADER_PHP = __DIR__.'/custom.header.php';
 const LG_CUSTOM_FOOTER_PHP = __DIR__.'/custom.footer.php';
 
 // Define the location of this network, usually a city and a country;
-const LG_LOCATION = 'Amsterdam, Netherlands';
-// Define a query location for the link to openstreetmap (eg: Amsterdam, Netherlands will be https://www.openstreetmap.org/search?query=Amsterdam, Netherlands)
-const LG_MAPS_QUERY = 'Amsterdam, Netherlands';
+const LG_LOCATION = 'Russia, Moscow';
+// Define a query location for the link to openstreetmap (eg: Russia, Moscow will be https://www.openstreetmap.org/search?query=Russia, Moscow)
+const LG_MAPS_QUERY = 'Russia, Moscow';
 // Define the facility where the network is located, usually a data center;
-const LG_FACILITY = 'Nikhef';
-// Define a direct link to more information about the facility, this should be a link to PeeringDB;
-const LG_FACILITY_URL = 'https://www.peeringdb.com/fac/18';
+const LG_FACILITY = 'SberCloud';
+// Define a direct link to more information about the facility, this should be a link to PeeringDB (https://www.peeringdb.com/fac/18);
+const LG_FACILITY_URL = 'https://www.peeringdb.com';
 // Define an IPv4 for testing;
 const LG_IPV4 = '127.0.0.1';
 // Define an IPv6 for testing;
@@ -64,9 +64,9 @@ const LG_METHODS = [
 
 // Define other looking glasses, this is useful if you have multiple networks and looking glasses;
 const LG_LOCATIONS = [
-    'Location A' => 'https://github.com/hybula/lookingglass/',
-    'Location B' => 'https://github.com/hybula/lookingglass/',
-    'Location C' => 'https://github.com/hybula/lookingglass/',
+    'Location A' => 'https://github.com/gunk1n/lookingglass-docker/',
+    'Location B' => 'https://github.com/gunk1n/lookingglass-docker/',
+    'Location C' => 'https://github.com/gunk1n/lookingglass-docker/',
 ];
 
 // Enable the iPerf info inside the speedtest block, set to false to disable;
@@ -81,9 +81,9 @@ const LG_SPEEDTEST_LABEL_OUTGOING = 'iPerf3 Outgoing';
 const LG_SPEEDTEST_CMD_OUTGOING = 'iperf3 -4 -c hostname -p 5201 -P 4 -R';
 // Define speedtest files with URLs to the actual files;
 const LG_SPEEDTEST_FILES = [
-    '100M' => 'https://github.com/hybula/lookingglass/',
-    '1G' => 'https://github.com/hybula/lookingglass/',
-    '10G' => 'https://github.com/hybula/lookingglass/'
+    '100M' => 'https://github.com/gunk1n/lookingglass-docker/',
+    '1G' => 'https://github.com/gunk1n/lookingglass-docker/',
+    '10G' => 'https://github.com/gunk1n/lookingglass-docker/'
 ];
 
 // Define if you require visitors to agree with the Terms of Use. The value should be a link to the terms, or false to disable it completely.
