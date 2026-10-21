@@ -38,7 +38,7 @@ Note: These steps also work with AlmaLinux 9, but it will install PHP 8 instead 
 For installation using Docker, follow these steps and run the commands on the target machine where the application should be installed:
 
 1. First, ensure Docker and Docker Compose are already installed.
-2. Clone this GitHub repository: `git clone https://github.com/hybula/lookingglass.git`.
+2. Clone this GitHub repository: `git clone https://github.com/gunk1n/lookingglass-docker.git`.
 3. Change your current working directory to the freshly cloned repository.
 4. Currently, the Docker images are not hosted on an image repository, so you'll have to build them yourself with the following command: `docker compose build`.
 5. For production use, change the environment variables inside the `docker-compose.yml` file to the desired values. For testing purposes, the default values are fine.
